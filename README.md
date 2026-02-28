@@ -1,10 +1,10 @@
-Sentiment Analysis Tool 🧠📊
+# Sentiment Analysis Tool 🧠📊
 
 A machine learning–based sentiment analysis tool that classifies text as positive or negative using classical Natural Language Processing (NLP) techniques and supervised learning.
 
 This project was developed as part of my internship tasks at SyntexHub.
 
-📌 Project Overview
+## 📌 Project Overview
 
 The tool performs the following steps:
 
@@ -20,7 +20,7 @@ Evaluates the model using Accuracy and F1-Score
 
 Provides a Command Line Interface (CLI) for real-time sentiment prediction
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 Python
 
@@ -30,7 +30,7 @@ Scikit-learn
 
 Pandas
 
-📂 Project Structure
+## 📂 Project Structure
 sentiment-analysis/
 ├── data/
 │   └── data_sample.csv
@@ -39,7 +39,7 @@ sentiment-analysis/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-📊 Dataset
+## 📊 Dataset
 
 The full dataset is not included due to GitHub file size limits.
 
@@ -47,7 +47,7 @@ The full dataset is not included due to GitHub file size limits.
 
 Users can replace the sample file with the full dataset locally.
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
 Clone the repository:
 
@@ -63,8 +63,8 @@ Download NLTK resources:
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
-🚀 How to Run
-🔹 Train the Model
+## 🚀 How to Run
+### 🔹 Train the Model
 python train.py
 
 This will:
@@ -77,7 +77,7 @@ Evaluate performance
 
 Save the trained model and vectorizer locally
 
-🔹 Run the CLI
+### 🔹 Run the CLI
 python main.py
 
 Example:
@@ -87,7 +87,7 @@ Predicted Sentiment: positive
 
 Type exit to quit the CLI.
 
-📈 Evaluation Metrics
+## 📈 Evaluation Metrics
 
 Accuracy
 
@@ -95,7 +95,7 @@ F1-Score (weighted)
 
 These metrics are printed after training to assess model performance.
 
-📝 Notes
+## 📝 Notes
 
 Trained model files (.pkl) and large datasets are excluded from version control.
 
@@ -103,7 +103,7 @@ This ensures the repository remains lightweight and reproducible.
 
 Users can regenerate models by running train.py.
 
-🌱 Future Improvements
+## 🌱 Future Improvements
 
 Add neutral sentiment classification
 
@@ -113,7 +113,7 @@ Build a GUI or web interface
 
 Add confusion matrix and visualization
 
-👤 Author
+## 👤 Author
 
 Youssef Mohammed
 AI / Software Engineering Intern
